@@ -9,8 +9,7 @@ h4 {
     display:block;
     border: 2px solid black;
     position:absolute;
-    bottom:0;
-    left:0;
+    float:left;
 }
 .text {
     background-color: rgb(188,155,174);
