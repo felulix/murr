@@ -37,6 +37,7 @@ h4 {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 .invisible {
     padding:20px;
@@ -47,6 +48,7 @@ body {
 @media (min-width: 1200px) {
     .col-mx-1, .col-mx-2, .col-mx-3, .col-mx-4, .col-mx-5, .col-mx-6, .col-mx-7, .col-mx-8,
     .col-mx-9, .col-mx-10, .col-mx-11, .col-mx-12 {
+        margin: 10px;
     }
     .col-mx-1 {
      flex-basis: 8.33%;
@@ -88,6 +90,7 @@ body {
 @media (min-width: 993px) and (max-width: 1200px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        margin: 10px;
     }
     .col-lg-1 {
      flex-basis: 8.33%;
@@ -129,6 +132,7 @@ body {
    @media (min-width: 769px) and (max-width: 992px){
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
     .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        margin: 10px;
     }
     .col-md-1 {
      flex-basis: 8.33%;
@@ -170,6 +174,7 @@ body {
    @media (max-width: 768px){
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
     .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        margin: 10px;
     }
     .col-sm-1 {
      flex-basis: 8.33%;
