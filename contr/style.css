@@ -1,6 +1,6 @@
 .text, .table, .image, .list{
     border: 2px solid black;
-    padding:5px;
+    padding:35px;
     position: relative;
 }
 h1, h2, h3 {
@@ -26,7 +26,6 @@ img {
     }
 p {
     font-family: 'Nunito', sans-serif;
-    padding: 35px;
 }
 .text {
     background-color: rgb(188,155,174);
