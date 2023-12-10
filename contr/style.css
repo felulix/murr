@@ -1,20 +1,21 @@
 .text, .table, .image, .list{
     border: 2px solid black;
     padding:5px;
+    position: relative;
 }
 h1, h2, h3 {
     align-items: center;
     font-family: 'Rethink Sans',  sans-serif;
 }
 h4 {
-    display:block;
+    display: block;
     border: 2px solid black;
-    position:absolute;
+    position: absolute; 
     margin-bottom: 0;
     margin-left: 0;
     font-size: 120%;
-    padding:3px;
-    font-family: 'Monserrat',  sans-serif;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
 }
 p {
     font-family: 'Nunito', sans-serif;
