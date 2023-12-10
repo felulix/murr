@@ -45,6 +45,12 @@ h4 {
 body {
     margin: 0;
 }
+ img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
 @media (min-width: 1200px) {
     .col-mx-1 {
      width: 8.33%;
