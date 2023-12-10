@@ -11,6 +11,7 @@ h1, h2, h3 {
     font-family: 'Rethink Sans',  sans-serif;
 }
 h4 {
+    display:block;
     border: 2px solid black;
     position: absolute; 
     bottom: 0; 
