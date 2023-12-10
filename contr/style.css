@@ -1,0 +1,34 @@
+.text, .table, .image, .list{
+    border: 2px solid black;
+}
+h1, h2, h3 {
+    align-items: center;
+}
+h4 {
+    display:block;
+    border: 2px solid black;
+}
+.text {
+    background-color: rgb(188,155,174);
+    h4 {
+        background-color: rgb(23, 23, 23);
+    }
+}
+.image {
+    background-color: rgb(172, 213, 214);
+    h4 {
+        background-color: rgb(43, 46, 48);
+    }
+}
+.list {
+    background-color:rgb(173, 172, 214) ;
+    h4 {
+        color:rgb(18, 0, 132);
+    }
+}
+.table {
+    background-color: rgb(75, 112, 152); 
+    h4 {
+        background-color: white;
+    }
+}
